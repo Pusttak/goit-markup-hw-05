@@ -654,6 +654,16 @@ background-color: var(--accent-color);
     cursor: pointer;
 }
 
+.modal-close-icon {
+    transform: rotate3d(0, 0, 1, 0) scale(1);
+    
+
+    transition: transform var(--duration-animation) var(--cubic-bezier);
+}
+
+.modal-close-button:hover .modal-close-icon {
+    transform: rotate3d(0, 0, 1, 90deg) scale(1.15);
+}
 
 /* portfolio page */
 
